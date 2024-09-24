@@ -29,7 +29,7 @@ async def translate(_, message) -> None:
     translation = await trans(to_translate, sourcelang=source, targetlang=dest)
     reply = (
         f"⬤ ᴛʀᴀɴsʟᴀᴛᴇᴅ ғʀᴏᴍ {source} ᴛᴏ {dest} ➥\n\n"
-        f"♥︎ {translation.text}\n\n❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ˹ ᴀᴠɪsʜᴀ ꭙ ʀᴏʙᴏᴛ™ ♡゙"
+        f"♥︎ {translation.text}\n\n❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ 🫧⏤͟͟͞ـﮩ♡︎ ˹ꫝɴᴊᴧʟɪ ꝛᴏʙᴏᴛ˼ [🇮🇳]"
     )
     await message.reply_text(reply)
   
