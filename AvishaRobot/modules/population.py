@@ -34,14 +34,14 @@ def country_command_handler(client: Client, message: Message):
                 f"● ɴᴀᴍᴇ ➥ {country_name}\n"
                 f"● ᴄᴀᴘɪᴛᴀʟ ➥ {capital}\n"
                 f"● ᴘᴏᴘᴜʟᴀᴛɪᴏɴ ➥ {population}\n\n"
-                f"❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ๛ᴀ ᴠ ɪ s ʜ ᴀ ࿐"
+                f"❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ 🫧⏤͟͟͞ـﮩ♡︎ ˹Ҩ፝֟፝ͷ ꫝɴᴊᴀʟɪ˼ [🇮🇳]"
             )
         else:
             response_text = "✦ Error fetching country information from the API."
     except requests.exceptions.HTTPError as http_err:
         response_text = f"✦ HTTP error occurred Enter correct Country code"
     except Exception as err:
-        response_text = f"✦ ᴇʀʀᴏʀ ➥ @H_CC_HELP"
+        response_text = f"✦ ᴇʀʀᴏʀ ➥ @AnjaliOwnerBot"
 
     # Send the response to the Telegram chat
     message.reply_text((response_text),reply_markup=InlineKeyboardMarkup(EVAA),)
