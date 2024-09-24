@@ -31,7 +31,7 @@ async def carbon_func(_, message):
     await pbot.send_photo(
         message.chat.id,
         photo=carbon,
-        caption=f"❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ๛ᴀ ᴠ ɪ s ʜ ᴀ ♡゙", reply_markup=InlineKeyboardMarkup(EVAA),
+        caption=f"❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ 🫧⏤͟͟͞ـﮩ♡︎ ˹Ҩ፝֟፝ͷ ꫝɴᴊᴀʟɪ˼ [🇮🇳]", reply_markup=InlineKeyboardMarkup(EVAA),
     )
     await m.delete()
     carbon.close()
